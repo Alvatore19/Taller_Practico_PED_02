@@ -31,6 +31,7 @@ namespace Taller_Practico_PED_02
         }
 
         // Método privado recursivo
+        //metodo
         private void InsertarRecursivo(Nodo actual, int isbn)
         {
             // Si el ISBN es menor, nos vamos por la izquierda
