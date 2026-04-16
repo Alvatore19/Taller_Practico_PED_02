@@ -12,6 +12,10 @@ namespace Taller_Practico_PED_02
         public Nodo Izquierdo { get; set; }
         public Nodo Derecho { get; set; }
 
+        // Coordenadas para el dibujo GDI+
+        public int X { get; set; }
+        public int Y { get; set; }
+
         // Constructor para inicializar un nuevo nodo
         public Nodo(int isbn)
         {
